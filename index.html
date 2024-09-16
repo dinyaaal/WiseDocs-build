@@ -6,11 +6,11 @@
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300:400;500;700&display=swap&_v=20240916032354" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap&_v=20240916032354" rel="stylesheet" />
-	<link rel="stylesheet" href="css/style.min.css?_v=20240916032354" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300:400;500;700&display=swap&_v=20240917014246" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap&_v=20240917014246" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20240917014246" />
 
-	<link rel="stylesheet" href="files/output.css?_v=20240916032354" />
+	<link rel="stylesheet" href="files/output.css?_v=20240917014246" />
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -22,8 +22,14 @@
 		<header data-scroll="70" class="header transition-[background-color] duration-500 fixed z-20 top-0 left-0 w-full">
 			<div class="px-5 min-h-[70px] h-full w-full xl:px-10 flex justify-between items-center">
 				<div class="header-block">
-					<a href="#hero" data-goto="#hero" class="logo font-medium font-roboto flex gap-2 items-center uppercase transition-colors duration-300 hover:text-mainYellow">
-						<span class="font-raleway font-bold text-mainYellow text-[28px]">W</span>Wise Docs
+					<a href="#hero" data-goto="#hero" class="logo">
+						<svg class="w-[30px] h-[30px]" width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="logo__icon-line" d="M15.5001 77.5H0.100098V92.9V108.1H15.5001H30.9001V92.9H15.5001V77.5Z" fill="#111010" />
+							<path class="logo__icon-line" d="M61.7002 15.8999H92.5002V46.6999H107.8V0.399902H61.7002V15.8999Z" fill="#111010" />
+							<path d="M92.5001 92.8999H61.7001V46.6999H15.5001V15.8999H30.9001V0.399902H0.100098V62.0999H46.3001V108.1H107.8V77.4999H92.5001V92.8999Z" fill="#FCD62C" />
+						</svg>
+
+						WiseDocs
 					</a>
 					<nav class="header-menu hidden">
 						<ul class="flex gap-5 font-raleway">
@@ -639,7 +645,7 @@
 									naudoti kiekvienam vartotojui.
 								</p>
 							</div>
-							<a href="#" class="flex self-end gap-2 group items-center">
+							<a href="#contact-us" data-goto-header data-goto="#contact-us" class="flex self-end gap-2 group items-center">
 								<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Aptarti šį aspektą</span>
 								<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="white" xmlns="http://www.w3.org/2000/svg">
 									<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -808,15 +814,9 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
-													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
-													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
-														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
-													</svg>
-												</a>
 											</div>
 										</div>
-										<a href="#" class="tabs__link group">
+										<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link group">
 											<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 											<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 												<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -882,15 +882,9 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
-													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
-													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
-														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
-													</svg>
-												</a>
 											</div>
 										</div>
-										<a href="#" class="tabs__link group">
+										<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link group">
 											<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 											<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 												<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -960,15 +954,9 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
-													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
-													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
-														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
-													</svg>
-												</a>
 											</div>
 										</div>
-										<a href="#" class="tabs__link group">
+										<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link group">
 											<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 											<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 												<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1048,16 +1036,10 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
-													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
-													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
-														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
-													</svg>
-												</a>
 											</div>
 											<picture><source srcset="img/possibilities/04/02.webp" type="image/webp"><img class="tabs__image" src="img/possibilities/04/02.jpg" alt="Image" /></picture>
 										</div>
-										<a href="#" class="tabs__link group">
+										<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link group">
 											<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 											<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 												<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1117,15 +1099,9 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
-													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
-													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
-														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
-													</svg>
-												</a>
 											</div>
 										</div>
-										<a href="#" class="tabs__link group">
+										<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link group">
 											<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 											<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 												<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1202,7 +1178,7 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
+												<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link--mobile group">
 													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1277,7 +1253,7 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
+												<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link--mobile group">
 													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1356,7 +1332,7 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
+												<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link--mobile group">
 													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1445,7 +1421,7 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
+												<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link--mobile group">
 													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1515,7 +1491,7 @@
 														</li>
 													</ul>
 												</div>
-												<a href="#" class="tabs__link--mobile group">
+												<a href="./files/document.pdf" target="_blank" rel="noopener noreferrer" class="tabs__link--mobile group">
 													<span class="underline transition-colors duration-300 group-hover:text-mainYellow">Peržiūrėti visą Wise Docs funkcijų sąrašą</span>
 													<svg class="transition-colors duration-300 group-hover:fill-mainYellow" width="21" height="8" viewBox="0 0 21 8" fill="black" xmlns="http://www.w3.org/2000/svg">
 														<path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill-opacity="0.6" />
@@ -1710,7 +1686,7 @@
 						</div>
 						<div data-aos="fade-up" class="flex h-fit flex-col gap-[30px]">
 							<div class="w-full h-fit relative flex gap-5 items-end">
-								<div class="about-us__slider swiper w-full shrink-0 xl:w-[600px]">
+								<div thumbsSlider=".about-us-thumbs__slider" class="about-us__slider swiper w-full shrink-0 xl:w-[600px]">
 									<div class="about-us__wrapper swiper-wrapper">
 										<div class="about-us__slide swiper-slide">
 											<div class="about-slide__body">
@@ -1829,24 +1805,8 @@
 									</div>
 								</div>
 								<div class="hidden xl:grid">
-									<div thumbsSlider class="about-us-thumbs__slider swiper">
+									<div class="about-us-thumbs__slider swiper">
 										<div class="about-us-thumbs__wrapper swiper-wrapper">
-											<div class="about-us-thumbs__slide swiper-slide">
-												<div class="about-thumbs__body">
-													<div class="about-thumbs__block flex flex-col gap-6">
-														<div class="about-thumbs__mini-info">
-															<p class="font-bold font-raleway uppercase">
-																Vaidas Zdanys
-															</p>
-															<p>
-																Verslo procesų optimizavimo patirtis: daugiau
-																nei 18 metų
-															</p>
-														</div>
-														<picture><source srcset="img/about-us/swiper/01.webp" type="image/webp"><img class="about-thumbs__image" src="img/about-us/swiper/01.jpg" alt="Image" /></picture>
-													</div>
-												</div>
-											</div>
 											<div class="about-us-thumbs__slide swiper-slide">
 												<div class="about-thumbs__body">
 													<div class="about-thumbs__block flex flex-col gap-6">
@@ -1886,22 +1846,40 @@
 													</div>
 												</div>
 											</div>
+											<div class="about-us-thumbs__slide swiper-slide">
+												<div class="about-thumbs__body">
+													<div class="about-thumbs__block flex flex-col gap-6">
+														<div class="about-thumbs__mini-info">
+															<p class="font-bold font-raleway uppercase">
+																Vaidas Zdanys
+															</p>
+															<p>
+																Verslo procesų optimizavimo patirtis: daugiau
+																nei 18 metų
+															</p>
+														</div>
+														<picture><source srcset="img/about-us/swiper/01.webp" type="image/webp"><img class="about-thumbs__image" src="img/about-us/swiper/01.jpg" alt="Image" /></picture>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 
-								<button type="button" class="swiper-button-prev swiper-button about-us__slider-prev">
+								<button type="button" class="swiper-button-prev swiper-button about-us-thumbs__slider-prev">
 									<svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M1 1L13 13L1 25" stroke="#898989" stroke-width="1.2" stroke-linejoin="bevel" />
 									</svg>
 								</button>
-								<button type="button" class="swiper-button-next swiper-button about-us__slider-next">
+								<button type="button" class="swiper-button-next swiper-button about-us-thumbs__slider-next">
 									<svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M1 1L13 13L1 25" stroke="#898989" stroke-width="1.2" stroke-linejoin="bevel" />
 									</svg>
 								</button>
 							</div>
-							<div class="swiper-pagination about-us__slider-pagination"></div>
+
+							<div class="swiper-pagination about-us__slider-pagination xl:!hidden"></div>
+							<div class="swiper-pagination about-us-thumbs__slider-pagination !hidden xl:!flex"></div>
 						</div>
 					</div>
 				</div>
@@ -2040,7 +2018,7 @@
 									<p>
 										Sutinku, kad mano asmens duomenys būtų tvarkomi
 										vadovaujantis
-										<a href="#" class="link underline">privatumo politikos</a>
+										<a href="/policy.html" class="link underline">privatumo politikos</a>
 										nuostatomis
 									</p>
 								</label>
@@ -2419,7 +2397,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240916032354"></script>
+	<script src="js/app.min.js?_v=20240917014246"></script>
 </body>
 
 </html>
