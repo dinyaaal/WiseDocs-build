@@ -229,7 +229,7 @@ main {
 }
 
 .tabs__link {
-  @apply flex self-end items-center gap-2;
+  @apply hidden md:flex self-end items-center gap-2;
 }
 
 .tabs__title {
