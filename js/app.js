@@ -4911,6 +4911,8 @@
                 spaceBetween: 20,
                 speed: 300,
                 loop: true,
+                slideToClickedSlide: true,
+                clickable: true,
                 pagination: {
                     el: ".about-us-thumbs__slider-pagination",
                     clickable: true
@@ -4922,6 +4924,11 @@
                 on: {
                     slideChange: function() {
                         if (aboutSlider) aboutSlider.slideToLoop(aboutThumbsSlider.realIndex);
+                    },
+                    click: function(aboutThumbsSlider) {
+                        const clickedIndex = aboutThumbsSlider.clickedIndex;
+                        const activeIndex = aboutThumbsSlider.activeIndex;
+                        if (clickedIndex === activeIndex) aboutThumbsSlider.slideNext();
                     }
                 }
             });

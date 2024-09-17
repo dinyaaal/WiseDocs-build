@@ -242,7 +242,7 @@ main {
 }
 
 .tabs__body-block {
-  @apply translate-y-[10%] transition-transform duration-500;
+  @apply md:translate-y-[10%] transition-transform duration-500;
 }
 
 .tabs__body-active {
