@@ -138,8 +138,12 @@ main {
   @apply w-full max-w-[1200px] px-[15px] mx-auto;
 }
 
-.title {
+.title-big {
   @apply font-raleway font-extrabold text-3xl  xl:text-[46px] xl:leading-[54px];
+}
+
+.title {
+  @apply font-raleway font-extrabold text-3xl  xl:text-[40px] xl:leading-[47px];
 }
 
 .title-small {
@@ -191,7 +195,7 @@ main {
 }
 
 ._header-scroll {
-  @apply text-white bg-dark;
+  @apply text-white bg-dark fixed;
   .header-block {
     @apply !w-full;
   }
@@ -230,7 +234,7 @@ main {
 }
 
 .main-item__body {
-  @apply flex flex-col gap-4;
+  @apply flex flex-col gap-[13px];
 }
 
 .white-block {
@@ -258,7 +262,7 @@ main {
 }
 
 .tabs__title {
-  @apply pb-[14px] border-b-[3px] transition-all duration-300 border-mainYellow border-opacity-0;
+  @apply pb-[14px] border-b-[3px] uppercase font-bold transition-all duration-300 border-mainYellow border-opacity-0;
 }
 
 ._tab-active {
@@ -289,7 +293,7 @@ main {
 }
 
 .tabs__list {
-  @apply pl-5 leading-[26px] list-image-check;
+  @apply pl-5 list-image-check leading-[26px];
 }
 
 .list .tabs__link {
@@ -340,6 +344,14 @@ main {
 
 .about-slide__body {
   @apply flex flex-col w-full h-full md:flex-row gap-[30px] xl:gap-10 px-5 py-[35px] xl:p-10 bg-[#F6F7F8];
+}
+
+.about-slide__text {
+  @apply text-sm;
+}
+
+.list {
+  @apply list-image-check;
 }
 
 .about-slide__image {
@@ -457,7 +469,11 @@ main {
   @apply list-disc pl-5;
 }
 .policy-sub-sub-list {
-  @apply list-image-check pl-5;
+  @apply pl-5 list-image-check;
+}
+
+.price-list li {
+  @apply list-image-yellowCheck;
 }
 
 .popup {
